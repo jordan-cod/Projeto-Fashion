@@ -1,0 +1,203 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+/*HEADER INTEIRO*/
+#primeiroscroll{
+    background-color: rgb(8,26,36);
+
+    width: 90%;
+    max-width: 1480px;
+
+    margin: auto;
+    margin-top: 3.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*logo*/
+#logo{
+    margin-left: 20%;
+}
+#menu{
+    margin-right: 10%;
+
+}
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+.container-menu > li{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.container-menu > li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(73, 73, 73);
+    letter-spacing: 6px;
+    transition: color 0.3s linear;
+}
+.container-menu > li > a:hover{
+    color:rgb(202, 202, 202) ;
+}
+/*Imagem principal*/
+.imgprincipal{
+    width: 90%;
+    max-width: 1480px;
+    margin: auto;
+}
+.imgprincipal > img{
+    width: 100%;
+}
+/*texto e paragrafo*/
+.txtep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 65%;
+    max-width: 1480px;
+
+    margin: auto;
+    margin-top: 9vh;
+}
+.txtep > p{
+    text-align: center;
+    line-height: 2;
+    margin: auto;
+}
+/*Modelos*/
+.modelos{
+    width: 90%;
+    max-width: 1480px;
+    margin: auto;
+    margin-top: 9vh;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.modelos > .containermodelo1, .containermodelo3{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+
+}
+.modelos > .containermodelo1 > img, .containermodelo2 > img, .containermodelo3 > img{
+    width: 20vw;
+}
+.nomes{
+    text-align: center;
+    margin-top: 5.5px;
+    margin-bottom: 0;
+
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.nomep{
+    text-align: center;
+    margin-top: 5.5px;
+    margin-bottom: 0;
+
+    color: rgb(71, 71, 71);
+}
+/*Caixa de texto*/
+.bluebox{
+    background-color: rgb(1,59,83);
+    background-image: url(/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 55vh;
+    max-width: 1480px;
+    margin: auto;
+    margin-top: 15vh;
+
+    position: relative;
+}
+.bluebox > div{
+    width: 100%;
+
+    margin-left: 6vw;
+    margin-right: 45vw;
+    margin-top: 5vw;
+}
+.bluebox > div > h4{
+    margin-top: 5px;
+}
+.bluebox > div > h3, h4{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+.bluebox > div > p{
+    margin-top: 45px;
+    line-height: 2;
+
+    width: 70%;
+
+}
+/*Contato*/
+.contato{
+    width: 90%;
+    max-width: 1480px;
+    margin: auto;
+    margin-top: 9vh;
+}
+.contato > h4{
+    text-align: center;
+    color: rgb(1,59,83);
+}
+.contato > p{
+    text-align: center;
+    margin-top: 1px;
+
+    color: rgb(1,59,83);
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*Mapa*/
+.map{
+    width: 90%;
+    max-width: 1480px;
+    margin: auto;
+    margin-top: 9vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Rodapé*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1480px;
+    height: 6vh;
+
+    margin: auto;
+    margin-top: 9vh;
+    margin-bottom: 3.5vh;    
+
+    background-color: rgb(8,26,36);
+    color: rgb(182, 182, 182);
+}
+footer > h5{
+    font-size: 0.9rem;
+    letter-spacing: 6px;
+}
