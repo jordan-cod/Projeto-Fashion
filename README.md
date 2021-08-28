@@ -1,11 +1,13 @@
 # **Projeto Fashion**
 
+<img src="./layout_final.jpg" alt="layout final">
+
+---
+
 ## :computer: Sobre
 
 A página Fashion foi criada como projeto do curso <strong>Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos</strong> do professor <a href="">Daniel Tapia Morales</a>.
 Como um dos projetos do curso, o intuito foi o desenvolvimento utilizando apenas <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5">HTML5</a> e <a href="https://developer.mozilla.org/pt-BR/docs/Archive/CSS3">CSS3</a>.
-
-<img src="./layout_final.jpg" alt="layout final">
 
 ---
 ### :electric_plug: Executando
